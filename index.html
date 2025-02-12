@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Professional Website Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="main-content">
+      <div id="upper-part">
+        <section id="about-me">
+          <div class="profile-image"></div>
+          <div>
+            <h1>Hi, Welcome</h1>
+            <p>
+              I am an Informatics student at Muhammadiyah University of East
+              Kalimantan with a GPA of 3.84. Passionate about web development,
+              cloud computing, and exploring advancements in artificial
+              intelligence and cybersecurity. Successfully completed the Bangkit
+              Academy 2024 Cloud Computing program, gaining hands-on experience
+              in Google Cloud technologies and project development. Actively
+              seeking opportunities to apply my technical expertise and
+              contribute to impactful projects.
+            </p>
+          </div>
+        </section>
+        <section id="contact">
+          <h3>Get in touch with me</h3>
+          <div class="media-list">
+            <a href="https://www.linkedin.com/in/rhmts" target="_blank"
+              ><i class="fa-brands fa-linkedin fa-xl"></i> Linkedin</a
+            >
+            <a href="https://www.instagram.com/rahmtris/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-xl"></i> Instagram</a
+            >
+            <a href="https://github.com/rhmtspr" target="_blank"
+              ><i class="fa-brands fa-github fa-xl"></i> Github</a
+            >
+          </div>
+        </section>
+      </div>
+      <section id="projects">
+        <h3>My Projects</h3>
+        <div class="tabs">
+          <div role="tablist">
+            <button
+              id="tab-1"
+              aria-selected="true"
+              aria-controls="tab-panel-1"
+              role="tab"
+              type="button"
+              tabindex="0"
+            >
+              Project 1
+            </button>
+            <button
+              id="tab-2"
+              aria-selected="false"
+              aria-controls="tab-panel-2"
+              role="tab"
+              type="button"
+              tabindex="-1"
+            >
+              Project 2
+            </button>
+          </div>
+          <div
+            id="tab-panel-1"
+            aria-labelledby="tab-1"
+            role="tabpanel"
+            tabindex="0"
+          >
+            <div>
+              <div class="project-1-img">
+                <img src="assets/images/project-1-image.png" alt="" />
+              </div>
+              <div class="project-1-description">
+                <div class="project-1-title">
+                  <h2>HyperMeta</h2>
+                  <a
+                    href="https://github.com/KrisnaSantosa15/braincore-hyperparameter-tuning"
+                    >Github Repository</a
+                  >
+                </div>
+                <p>
+                  HyperMeta automates hyperparameter optimization using advanced
+                  metaheuristic algorithms like Genetic Algorithms (GA) and
+                  Particle Swarm Optimization (PSO), eliminating the need for
+                  time-consuming manual tuning. It features an interactive
+                  dashboard for selecting ML models, applying optimization
+                  techniques, and visualizing results, improving model
+                  performance while reducing computational costs. The platform
+                  supports various machine learning models, such as
+                  SGDClassifier and XGBoost, and deploys them using Google Cloud
+                  services like Cloud Run, Cloud Build, and Artifact Registry.
+                  Results are displayed through a streamlined dashboard, making
+                  hyperparameter tuning more efficient and accessible.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            id="tab-panel-2"
+            aria-labelledby="tab-2"
+            role="tabpanel"
+            tabindex="-1"
+            hidden
+          >
+            <div>
+              <div class="project-2-img">
+                <img src="assets/images/project-2-img.png" alt="" />
+              </div>
+              <div class="project-2-description">
+                <div class="project-2-title">
+                  <h2>Pulse Drive</h2>
+                  <a
+                    href="https://github.com/rhmtspr/pulse-drive"
+                    >Github Repository</a
+                  >
+                </div>
+                <p>
+                  Pulse Drive is a dynamic web application designed to streamline car rental services. With features like user-friendly navigation, real-time availability checks, and secure online booking, it aims to provide a seamless and efficient experience for both renters and car rental businesses. Whether you're planning a short trip or an extended journey, Pulse Drive simplifies the process of finding and renting a car to suit your needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skill-section">
+        <h3>My Skills</h3>
+        <div class="skill-cards">
+          <div>
+            <h4>
+              <i class="fa-solid fa-layer-group fa-2xl"></i> Web Development
+            </h4>
+          </div>
+          <div>
+            <h4><i class="fa-solid fa-palette fa-2xl"></i> Web Design</h4>
+          </div>
+          <div>
+            <h4><i class="fa-brands fa-js fa-2xl"></i> Javascript</h4>
+          </div>
+          <div>
+            <h4><i class="fa-brands fa-python fa-2xl"></i> Python</h4>
+          </div>
+          <div>
+            <h4>
+              <i class="fa-solid fa-database fa-2xl"></i> Relational Databases
+            </h4>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b4edf9368f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
